@@ -1,17 +1,17 @@
-## A permission application library that supports injection permission instructions, based on RxPermission
+## 一款支持注入权限使用说明的权限申请库，基于RxPermission
 
 README: [English](https://github.com/DSAppTeam/DSPermission/blob/master/README.md) | [中文](https://github.com/DSAppTeam/DSPermission/blob/master/README-ZH.md)
 
-### Introduction
+### 简介
 
-### Function
-* Single/multiple runtime permission requests are supported 
-* The permission for installing unknown applications is supported 
-* Jump to the permission setting page is supported 
-* Permission usage instructions view injection is supported
+### 支持功能
+* 支持单个/多个运行时权限申请
+* 支持安装未知应用权限申请
+* 支持跳转权限设置页
+* 支持权限使用说明视图注入
 
-### Setup
-1. Add the JitPack repository to your build.gradle in the project root path
+### 配置
+1. 在项目根目录下的build.gradle添加 JitPack 仓库
 
    ```
     allprojects {
@@ -21,14 +21,14 @@ README: [English](https://github.com/DSAppTeam/DSPermission/blob/master/README.m
         }
     }
    ```
-2. add the dependency to your build.gradle in the module path
+2. 在 **app** 目录下的build.gradle中添加依赖
     ```
     implementation 'com.github.DSAppTeam:DSPermission:'
     ```
 
 
-### Usage
-Sample：
+### 如何使用
+示例：
 ```
 PermissionManager.get()
         .inject(context)
@@ -44,17 +44,15 @@ PermissionManager.get()
                          Toast.makeText(context, "denied " + never, Toast.LENGTH_LONG).show();
                      }
                  }, new PermissionConfig.Builder()
-                 //Request the permission to install the application, use the camera and microphone
+                        //请求安装应用程序、相机以及麦克风权限
                         .addPermission(Manifest.permission.REQUEST_INSTALL_PACKAGES)
                         .addPermission(Manifest.permission.CAMERA)
                         .addPermission(Manifest.permission.RECORD_AUDIO)
                         .build()
         );
 }
-
 ```
-
-Effect：
+效果：
 
 <img src="https://img-blog.csdnimg.cn/6697bf45808a4e7897822234f3200718.png" alt="申请相机权限" align=center />
 
@@ -63,6 +61,6 @@ Effect：
 <img src="https://img-blog.csdnimg.cn/b39acca1d7304e449b3e1466f969f940.png" alt="申请安装应用程序权限" align=center />
 
 ## TODO
-* custom views is supported
+* 支持自定义视图
 
-## Welcome to mention the functions and issues what you need
+## 欢迎提需要支持的功能及issue
