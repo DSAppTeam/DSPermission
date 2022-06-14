@@ -23,7 +23,9 @@ README: [English](https://github.com/DSAppTeam/DSPermission/blob/master/README.m
    ```
 2. 在 **app** 目录下的build.gradle中添加依赖
     ```
-    implementation 'com.github.DSAppTeam:DSPermission:'
+    dependencies {
+	        implementation 'com.github.DSAppTeam:DSPermission:v1.0.0'
+	}
     ```
 
 
@@ -63,5 +65,8 @@ PermissionManager.get()
 
 ## TODO
 * 支持自定义视图
+
+## 许可证
+Apache 2.0. 有关详细信息，请参阅 [License](https://github.com/DSAppTeam/DSPermission/blob/master/LICENSE) 。
 
 ## 欢迎提需要支持的功能及issue

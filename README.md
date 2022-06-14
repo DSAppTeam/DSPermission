@@ -23,7 +23,9 @@ README: [English](https://github.com/DSAppTeam/DSPermission/blob/master/README.m
    ```
 2. add the dependency to your build.gradle in the module path
     ```
-    implementation 'com.github.DSAppTeam:DSPermission:'
+    dependencies {
+	        implementation 'com.github.DSAppTeam:DSPermission:v1.0.0'
+	}
     ```
 
 
@@ -64,5 +66,8 @@ Effect：
 
 ## TODO
 * custom views is supported
+
+## License
+Apache 2.0. See the [License](https://github.com/DSAppTeam/DSPermission/blob/master/LICENSE)  for details.
 
 ## Welcome to mention the functions and issues what you need
