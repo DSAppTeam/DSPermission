@@ -1,0 +1,3 @@
+rootProject.name='DSPermission'
+include ':app'
+include ':core'
