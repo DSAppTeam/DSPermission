@@ -52,6 +52,7 @@ PermissionManager.get()
         );
 }
 ```
+
 效果：
 
 <img src="https://img-blog.csdnimg.cn/6697bf45808a4e7897822234f3200718.png" alt="申请相机权限" align=center />
