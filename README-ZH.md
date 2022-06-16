@@ -57,11 +57,11 @@ PermissionManager.get()
 
 效果：
 
-<img src="https://img-blog.csdnimg.cn/6697bf45808a4e7897822234f3200718.png" alt="申请相机权限" align=center />
+<img src="https://img-blog.csdnimg.cn/6697bf45808a4e7897822234f3200718.png" alt="申请相机权限" width = "152" height = "304.25" align=center />
 
-<img src="https://img-blog.csdnimg.cn/43fab92a1ba04cffa496d04cfa5bb3ee.png" alt="申请麦克风权限" align=center />
+<img src="https://img-blog.csdnimg.cn/43fab92a1ba04cffa496d04cfa5bb3ee.png" alt="申请麦克风权限" width = "152" height = "304.25" align=center />
 
-<img src="https://img-blog.csdnimg.cn/b39acca1d7304e449b3e1466f969f940.png" alt="申请安装应用程序权限" align=center />
+<img src="https://img-blog.csdnimg.cn/b39acca1d7304e449b3e1466f969f940.png" alt="申请安装应用程序权限" width = "152" height = "304.25" align=center />
 
 ## TODO
 * 支持自定义视图
