@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="libpermission_colorPrimary">#FFFFFF</color>
+
+    <color name="libpermission_textColorPrimary">#000000</color>
+
+    <color name="libpermission_themeColorPrimary">#EC4747</color>
+
+    <color name="libpermission_dividerColor">#E5E5E5</color>
+
+    <color name="libpermission_bgColorPrimaryDialog">#FFFFFF</color>
+
+</resources>

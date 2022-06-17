@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="libpermission_PingFangSCRegular">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="libpermission_PingFangSCMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="libpermission_PopupWindowAnimStyle">
+        <item name="android:windowEnterAnimation">@anim/libpermission_an_popup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/libpermission_an_popup_fade_out</item>
+    </style>
+
+    <style name="libpermission_easy_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 后面的activity变暗 -->
+    </style>
+
+    <style name="libpermission_bottomDialogStyle" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/libpermission_an_dialog_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/libpermission_an_dialog_exit_up</item>
+    </style>
+
+</resources>

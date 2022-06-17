@@ -1,0 +1,43 @@
+<resources>
+    <string name="libpermission_app_name">libpermission</string>
+    <string name="libpermission_permission_phone_state">电话/设备信息</string>
+    <string name="libpermission_permission_phone_state_content">用于识别设备，给您提供安全保证和信息推送等功能</string>
+    <string name="libpermission_permission_storage">读写手机存储</string>
+    <string name="libpermission_permission_storage_content">用于读写存储空间，支持您正常下载并保存内容，或通过缓存来保障相应服务等</string>
+    <string name="libpermission_permission_location">位置</string>
+    <string name="libpermission_permission_location_content">用于帮助您在发布的信息中展示位置，以及与他人进行信息交互等功能</string>
+    <string name="libpermission_permission_contact">通讯录</string>
+    <string name="libpermission_permission_audio">麦克风</string>
+    <string name="libpermission_permission_audio_content">支持您通过语音功能，与我们的产品、他人、客服进行信息交互等</string>
+    <string name="libpermission_permission_camera">相机</string>
+    <string name="libpermission_permission_camera_content">保障您正常拍摄及上传照片、图片、视频，支持游戏登录、内容发布、身份认证以及客服沟通等</string>
+    <string name="libpermission_permission_sms">短信</string>
+    <string name="libpermission_permission_sms_content">发送短信验证</string>
+    <string name="libpermission_permission_calendar">日历</string>
+    <string name="libpermission_permission_calendar_content">可读取、写入或修改您的日历，给您提供提醒服务等</string>
+    <string name="libpermission_permission_install_packages">安装应用</string>
+    <string name="libpermission_permission_install_packages_content">用于安装下载的应用等</string>
+    <string name="libpermission_permission_default">对应</string>
+    <string name="libpermission_permission_default_content">对应权限</string>
+    <string name="libpermission_permission_apply_title">权限申请</string>
+    <string name="libpermission_permission_apply_goto_app_settings">去设置</string>
+    <string name="libpermission_permission_apply_desc" formatted="false">在【设置-应用-%s-权限】中开启%s权限，以正常使用%s功能</string>
+
+    <string name="libpermission_permission_apply">权限申请</string>
+    <string name="libpermission_permission_camera_need">在“权限-相机”允许我们访问您的相机，即可进入拍摄。</string>
+    <string name="libpermission_permission_camera_need_for_take_avator">在“权限-相机”允许我们访问您的相机。</string>
+    <string name="libpermission_permission_audio_need">在“权限-麦克风”允许我们访问您的麦克风，即可进入拍摄。</string>
+    <string name="libpermission_permission_audio_need_for_record">在“权限-麦克风”允许我们访问您的麦克风，即可进入录音。</string>
+    <string name="libpermission_permission_to_setting">去设置</string>
+
+    <!-- START -->
+    <string name="libpermission_permission_utils_please_authorize_storage_permissions">请授权存储权限</string>
+    <!-- START -->
+    <string name="libpermission_camera_audio_permission_utils_unable_to_use_voice">无法使用语音</string>
+    <string name="libpermission_camera_audio_permission_utils_please_open_n_permission_of_ds_to_use_microphone_in_settings">
+        请在设置中开启对麦克风的\n使用权限
+    </string>
+    <string name="libpermission_camera_audio_permission_utils_not_set_up_temporarily">暂不设置</string>
+    <string name="libpermission_camera_audio_permission_utils_go_to_set_up">前往设置</string>
+    <string name="libpermission_cancel">取消</string>
+</resources>
