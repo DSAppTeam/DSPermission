@@ -2,7 +2,6 @@
 *.puml
 .DS_Store
 .gradle
-gradle
 .idea
 .externalNativeBuild
 .git-credentials

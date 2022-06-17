@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion build_versions.compile_sdk
@@ -38,6 +39,11 @@ android {
     resourcePrefix "libpermission_"
 }
 
+task generateSourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier 'sources'
+}
+
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api 'androidx.appcompat:appcompat:1.0.0'
@@ -46,5 +52,25 @@ dependencies {
 
 }
 
+def versionName = "1.0.0"
 
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
+afterEvaluate {
+    publishing {
+        publications {
+            Production(MavenPublication) {
+                // Creates a Maven publication called "release".
+                // Applies the component for the release build variant.
+                from components.release
+                // You can then customize attributes of the publication as shown below.
+                groupId = 'com.ds'
+                artifactId = 'Permission'
+                version = versionName
+                // 上传source，这样使用放可以看到方法注释
+                artifact generateSourcesJar
+            }
+        }
+    }
+}
 
